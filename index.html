@@ -4,13 +4,36 @@
 <meta charset="utf-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width"/>
-<title>타이틀을 넣어주세요.</title>
+<title>추석명절 즐겁게 보내세요</title>
 <script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
+<style>
+    img {
+        max-width: 100%; /* 화면 크기에 맞게 조정 */
+        height: auto;    /* 원본 비율 유지 */
+        display: block;
+        margin: 0 auto;  /* 중앙 정렬 */
+    }
+    .description-text {
+        text-align: center;
+        margin: 20px;
+        font-size: 1.2rem;
+        line-height: 1.5;
+    }
+</style>
 </head>
 <body>
+
+<!-- 긴 텍스트 직접 표시 -->
+<div class="description-text">
+    안녕하세요 전남순천명소 [컨투어미]에스테틱입니다.<br>
+    “풍성한 한가위, 즐거운 추석명절 가족과 함께 잘 보내시고 새롭게 서비스하는 정기구독서비스를 통해 합리적인 가격과 특별 혜택도 놓치지 마시고 컨투어미와 함께 더 빛나는 나를 만나보세요!"
+</div>
+
+<!-- 카카오 링크 버튼 -->
 <a id="kakao-link-btn" href="javascript:;">
-<img src="//developers.kakao.com/assets/img/about/logos/kakaolink/kakaolink_btn_medium.png"/>
+<img src="//developers.kakao.com/assets/img/about/logos/kakaolink/kakaolink_btn_medium.png" alt="카카오 링크 버튼"/>
 </a>
+
 <script type='text/javascript'>
   //<![CDATA[
     Kakao.init('7cdf412150aa9a5a51474b6f1416ef7e');
@@ -20,7 +43,7 @@
       objectType: 'feed',
       content: {
         title: '컨투어미 추석인사',
-        description: '안녕하세요 전남순천명소 [컨투어미]에스테틱입니다. “풍성한 한가위, 즐거운 추석명절 가족과 함께 잘 보내시고 새롭게 서비스하는 정기구독서비스를 통해 합리적인 가격과 특별 혜택도 놓치지 마시고 컨투어미와 함께 더 빛나는 나를 만나보세요!"',
+        description: '풍성한 한가위, 즐거운 명절 되세요!',
         imageUrl: 'https://drive.google.com/uc?id=1KYSLw1_jWl1WeWsuO2_asZxVrer-8h8X',
         link: {
           mobileWebUrl: 'https://con2ourme.co.kr/regularpay',
